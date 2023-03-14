@@ -1,0 +1,43 @@
+{
+  "name": "mobile-banking",
+  "version": "0.0.1",
+  "description": "Cash Connect is a banking app",
+  "productName": "Cash Connect",
+  "author": "Koree9988 <6330613010@email.psu.ac.th>",
+  "private": true,
+  "scripts": {
+    "test": "node ./insertData.service.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "firebase": "^9.17.1",
+    "jsqr": "^1.4.0",
+    "qrious": "^4.0.2",
+    "quagga": "^0.12.1",
+    "quasar": "^1.0.0",
+    "vue-barcode-reader": "^0.0.3",
+    "vue-qrcode-reader": "^3.1.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "workbox-webpack-plugin": "^5.1.4"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
